@@ -1,0 +1,48 @@
+p{
+    font-size: 2em;
+    font-weight: 900;
+}
+.arrows{
+    
+    margin: 0;
+}
+.left-top{
+    transform: rotate(30deg);
+}
+.right-top{
+    transform: rotate(-30deg);
+    
+}
+.padding{
+    display: inline-block;
+    height: 75px;
+    width: 70%;
+}
+.left-bottom{
+    transform: rotate(320deg);
+}
+.right-bottom{
+    transform: rotate(-320deg);
+}
+button{
+    width: 10em;
+    height: 10em;
+    display: block;
+    margin: auto;
+}
+div p{
+    display: inline-block;
+}
+@media screen and (width>=500px){
+    .padding{
+        display: inline-block;
+        height: 75px;
+        width: 90%;
+    }
+    button{
+        width: 20em;
+        height: 20em;
+        display: block;
+        margin: auto;
+    }
+}
